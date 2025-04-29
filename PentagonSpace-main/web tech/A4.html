@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Application Form</title>
+</head>
+<body>
+<form>
+  <fieldset>
+    <label><b>Full Name: </b><input type="text">
+    </label><br><br>
+     <label><b>Last Name: </b><input type="text">
+    </label><br><br>
+
+    <label><b>DOB: </b><input type="date"></label><br><br>
+
+    <label><b>Gender: </b>
+      <input type="radio" name="Gender" value="Male">Male
+      <input type="radio" name="Gender" value="Female">Female
+    </label><br><br>
+
+    <label><b>Email: </b><input type="email"></label><br><br>
+
+    <label><b>Phone No: </b><input type="tel"></label><br><br>
+
+    <label><b>Address: </b><textarea></textarea></label><br><br>
+
+    <label><b>City: </b><input type="text"></label><br><br>
+    <label><b>Pincode: </b><input type="number" placeholder="6 digit number"></label><br><br>
+    <label><b>Country: </b><input type="text"></label><br><br>
+
+    <label><b>Hobbies: </b>
+      <input type="checkbox" name="Hobbies" value="Drawing">Drawing
+      <input type="checkbox" name="Hobbies" value="Dancing">Dancing
+      <input type="checkbox" name="Hobbies" value="singing">Singing
+      <input type="checkbox" name="Hobbies" value="Other">Others <input type="text">
+    </label><br><br>
+
+    <label><b>Qualification: </b></label>
+    <table border="1" cellpadding="5">
+            <tr>
+
+                <th>Sl.No</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Pass</th>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td><input type="text" name="exam1"></td>
+                <td><input type="text" name="board1"></td>
+                <td><input type="text" name="percent1"></td>
+                <td><input type="text" name="year1"></td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td><input type="text" name="exam2"></td>
+                <td><input type="text" name="board2"></td>
+                <td><input type="text" name="percent2"></td>
+                <td><input type="text" name="year2"></td>
+            </tr>
+            <tr>
+                <td>03</td>
+                <td><input type="text" name="exam3"></td>
+                <td><input type="text" name="board3"></td>
+                <td><input type="text" name="percent3"></td>
+                <td><input type="text" name="year3"></td>
+            </tr>
+            <tr>
+                <td>04</td>
+                <td><input type="text" name="exam4"></td>
+                <td><input type="text" name="board4"></td>
+                <td><input type="text" name="percent4"></td>
+                <td><input type="text" name="year4"></td>
+            </tr>
+        </table>
+
+    <br>
+
+    <label><b>Courses Applied For: </b></label>
+    <input type="checkbox" name="course" value="BCA"> BCA
+        <input type="checkbox" name="course" value="BCom"> B.Com
+        <input type="checkbox" name="course" value="BSc"> B.Sc
+        <input type="checkbox" name="course" value="BE"> BE
+
+        <br><br>
+         <center>
+        <button> Submit </button>
+        <button> Reset </button></center>
+  </fieldset>
+</form>
+
+</body>
+</html>
