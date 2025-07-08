@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta>
+    <title>Document</title>
+</head>
+<body>
+    <H2>hello world</H2>
+    <button>click button</button>
+
+    <script>
+        alert(hi)
+    </script>
+</body>
+</html>
