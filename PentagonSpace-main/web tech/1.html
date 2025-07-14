@@ -4,7 +4,21 @@
     <meta>
     <title>Document</title>
 </head>
-<body>
-    hello world
-</body>
+
+    <script>
+        let cart=[10,20,30,40,50,60,70,80,90,100];
+
+        let result= cart.map(x=>{
+        return x>30;
+        });
+
+        let gst= result.filter(y=>{
+        return (y=y+(y*18)/1000);
+        });
+
+        let checkout= gst.reduce((acc,val)=>{
+        return acc+val;
+        });
+
+    </script>
 </html>
